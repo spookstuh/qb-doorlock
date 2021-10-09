@@ -1298,4 +1298,53 @@ QB.Doors = {
 		distance = 15.0,
 		size = 2
 	},
+	
+	--mechanic shop (office door 2)
+	{
+		objName = -1259801187,
+		objCoords  = vector3(-347.83, -133.28, 39.01),			
+		textCoords = vector3(-347.83, -133.28, 39.01),
+		authorizedJobs = { 'mechanic' },
+		locking = false,
+		locked = true,
+		pickable = false,
+		distance = 2.0,
+		size = 2
+	},
+	--mechanic shop (office door 1)
+	{
+		objName = -1259801187,
+		objCoords  = vector3(-354.15, -128.32, 39.47),			
+		textCoords = vector3(-354.15, -128.32, 39.47),
+		authorizedJobs = { 'mechanic' },
+		locking = false,
+		locked = true,
+		pickable = false,
+		distance = 2.0,
+		size = 2
+	},
+	--main garage door mechanic
+	{
+		objName = -550347177,
+		objCoords  = vector3(-355.92, -134.88, 39.01),			
+		textCoords = vector3(-355.92, -134.88, 39.01),
+		authorizedJobs = { 'mechanic' },
+		locking = false,
+		locked = true,
+		pickable = false,
+		distance = 7,
+		size = 2
+	},
+	--Exit garage door mechanic
+	{
+		objName = -550347177,
+		objCoords  = vector3(-349.8, -117.23, 39.15),			
+		textCoords = vector3(-349.8, -117.23, 39.15),
+		authorizedJobs = { 'mechanic' },
+		locking = false,
+		locked = true,
+		pickable = false,
+		distance = 7,
+		size = 2
+	},
 }
